@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    font-family: initial
+}
+.container{
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+.page  .head{
+    background-image: url("./images/bg-header-desktop.png");
+    background-size: cover;
+    text-align: center;
+}
+.page  .head svg{
+    margin-top: 50px;
+}
+.page  .head h1{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #444;
+}
+.page  .head p{
+    width: 500px;
+    margin: auto;
+    color: #777;
+    margin-bottom: 30px;
+}
+.page  .head .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.page  .head .btn button{
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+    border: none;
+    margin-top: 10px;
+}
+.page  .head .btn button:hover{
+    cursor: pointer;
+    
+}
+.page  .head .btn button:first-child{
+    background-color: hsl(171, 66%, 44%);
+}
+.page  .head .btn button:last-child{
+    background-color: hsl(233, 100%, 69%);
+    
+}
+@media(max-width:767px){
+    
+    .page  .head .btn{
+        flex-direction: column;
+    }
+    .page  .head .btn button{
+        width: 90%;
+    }
+    .page  .head p{
+   width: fit-content;
+    }
+
+}
+.page  .track{
+    padding-top: 100px;
+    margin-top: 100px;
+}
+.page  .track h1{
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+}
+.page  .track p{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #777;
+    line-height: 1.5;
+}
+.page  .track .computer{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    
+}
+.page  .track .computer .image{
+    margin-right: 120px;
+}
+.page  .track .computer .topics .box{
+    padding: 60px 0;
+}
+    .page  .track .computer .topics .box h3{
+        font-size: 25px;
+        color: #444;
+    }
+    .page  .track .computer .topics .box p{
+        width: 400px;
+        color: #777;
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+    @media(max-width:767px){
+        .page  .track p{
+            width: fit-content;
+        }
+        .page  .track .computer{
+            flex-direction: column;
+        }
+        .page  .track .computer .topics .box{
+            text-align: center;
+        }
+        .page  .track .computer .topics .box p{
+            text-align: center;
+        }
+    
+    }
+    .page  .clipboard{
+        text-align: center;
+        padding: 100px 0;
+    }
+    .page  .clipboard h1{
+        font-size: 30px; 
+        margin-bottom: 30px;
+        color: #444;
+    }
+    .page  .clipboard p{
+        width: 600px;
+        margin: auto;
+        color: #777;
+        line-height: 1.5;
+    }
+    .page  .clipboard img{
+        margin-top: 60px;
+    }
+    @media(max-width:767px){
+        .page  .clipboard img{
+            width: 600px;
+        }
+        
+    }
+    .page  .workflow{
+        padding: 100px 0;
+        text-align: center;
+        
+    }
+    .page  .workflow h1{
+        font-size: 30px; 
+        margin-bottom: 30px;
+        color: #444;
+        
+    }
+    .page  .workflow p{
+        width: 600px;
+        margin: auto;
+        color: #777;
+        line-height: 1.5;
+        
+    }
+    .page .workflow .create{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+    .page .workflow .create .box{
+        padding: 25px;
+    }
+    .page .workflow .create .box h2{
+        margin: 20px 0;
+    }
+    .page .workflow .create .box p{
+        width: 350px;
+    }
+    @media(max-width:767px){
+        .page .workflow .create{
+            flex-direction: column;
+        }
+        
+    }
+    .page .images{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 80px;
+    }
+    @media(max-width:767px){
+        .page .images{
+            flex-direction: column;
+        }
+        .page .images img{
+padding: 40px;
+        }
+
+    }
+    .page .app{
+        padding: 80px 0;
+    }
+    .page .app h1{
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 30px;
+        color: #444;
+    }
+    .page .app p{
+        width: 500px;
+        margin: auto;
+        color: #777;
+        margin-bottom: 30px;
+        
+    }
+    .page .app .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .page .app .btn button{
+        padding: 15px 25px;
+        border-radius: 30px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 600;
+        transition: .5s;
+        border: none;
+        margin-top: 10px;
+    }
+    .page .app .btn button:first-child{
+        background-color: hsl(171, 66%, 44%);
+    }
+    .page .app .btn button:last-child{
+        background-color: hsl(233, 100%, 69%);
+        
+    }
+    .page .app .btn button:hover{
+        cursor: pointer;
+        
+    }
+    @media(max-width:767px){
+        
+        .page  .app .btn{
+            flex-direction: column;
+        }
+        .page  .app .btn button{
+            width: 90%;
+        }
+        .page  .app p{
+       width: fit-content;
+        }
+    
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: hsl(201, 11%, 66%);
+    }
+    .footer ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .footer ul li {
+        padding: 30px;
+    }
+    .footer ul li p:first-child{
+        margin: 20px 0;
+    }
+    .footer ul li p:hover{
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+    .footer .icons svg{
+        margin: 20px;
+    }
+    .footer .icons svg:hover{
+        cursor: pointer;
+        background-color: hsl(171, 66%, 44%);
+color: hsl(171, 66%, 44%);
+    }
+    @media(max-width:767px){
+        .footer{
+            flex-direction: column;
+        }
+        .footer ul{
+            flex-direction: column;
+            text-align: center;
+
+        }
+        
+    }
